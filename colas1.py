@@ -16,6 +16,10 @@ class Colas:
             item = self.items.pop(0)
             item2 = self.items2.pop(0)
             total = self.total.pop(0)
+            print(f"Desencolando para cola1: {item}")
+            print(f"Desencolando para cola2: {item2}")
+            print(f"La primera cola: ", self.items)
+            print(f"La segunda cola: ", self.items2)
             print(f"La suma de {item} y {item2} es {total}")
             return item, item2, total
         except:
